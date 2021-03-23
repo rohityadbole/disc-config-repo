@@ -1,5 +1,2 @@
-spring:
-    application:
-        name: OAuth2-service
 server:
   port: 8097
