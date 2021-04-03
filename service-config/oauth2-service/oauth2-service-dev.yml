@@ -1,11 +1,5 @@
 security:
-  jwt:
-    key-store: classpath:OAuth.jks
-    key-store-password: password
-    key-pair-alias: OAuth
-    key-pair-password: password
-
-  oauth2:
+ oauth2:
    client:
     client-id: clientId
     client-secret: password
