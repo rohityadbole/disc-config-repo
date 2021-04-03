@@ -1,11 +1,14 @@
-server:
-  port: 8097
 security:
   jwt:
     key-store: classpath:OAuth.jks
     key-store-password: password
     key-pair-alias: OAuth
     key-pair-password: password
+
+  oauth2:
+   client:
+    client-id: clientId
+    client-secret: password
 eureka:
   client:
     serviceUrl:
