@@ -3,11 +3,5 @@ security:
    client:
     client-id: clientId
     client-secret: password
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
-  instance:
-    hostname: localhost
 server:
  port: 8097
