@@ -1,0 +1,12 @@
+security:
+  jwt:
+    key-store: classpath:OAuth.jks
+    key-store-password: password
+    key-pair-alias: OAuth
+    key-pair-password: password
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost
