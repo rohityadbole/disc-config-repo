@@ -1,0 +1,7 @@
+security:
+ oauth2:
+   client:
+    client-id: clientId
+    client-secret: password
+server:
+ port: 8097
